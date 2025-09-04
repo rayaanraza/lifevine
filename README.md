@@ -1,5 +1,5 @@
-# lifevine
-LifeVine for Ed
+# LifeVine
+LifeVine 
 # Family Documentation Organizer
 
 ## Project Description
