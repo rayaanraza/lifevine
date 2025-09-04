@@ -3,7 +3,7 @@ LifeVine for Ed
 # Family Documentation Organizer
 
 ## Project Description
-A desktop software application that allows families to document, organize, and preserve their digital history (photos, videos, documents). The system provides two GUIs, a database backend, and tools for tagging and managing content intuitively.
+A software application that gives families a chance to document, organize, and preserve their digital history (photos, videos, documents, more). We will provide two GUIs, a database backend, and tools for tagging and managing content intuitively.
 
 ## Technologies
 - Python (backend logic + automation)
