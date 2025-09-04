@@ -1,7 +1,7 @@
 # LifeVine
 
 ## Project Description
-A software application that gives families a chance to document, organize, and preserve their digital history (photos, videos, documents, more). We will provide two GUIs, a database backend, and tools for tagging and managing content intuitively.  Families often face challenges locating this information because it is scattered across different locations and difficult to access. The app will arrange all media on a timeline, allow families to share selected content with each other, provide options to sort by videos, photos, or documents, and include security features to restrict access to specific people. For each item, the user will be listed and have the option to add details such as who took the photo or video, the location, the time, and text explaining the reason for the media.  
+A software application that gives families a chance to document, organize, and preserve their digital history (photos, videos, documents). We will create two GUIs, a database backend, and tools for tagging and managing content intuitively. Families often face challenges locating this information because it is scattered across different locations and difficult to access. The app will arrange all media on a timeline, allow families to share selected content with each other, provide options to sort by videos, photos, or documents, and include security features to restrict access to specific people. For each item, the user will be listed and have the option to add details such as who took the photo or video, the location, the time, and text explaining the reason for the media.  
 
 ## Technologies and Tools
 - React
