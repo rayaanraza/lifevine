@@ -12,6 +12,7 @@ A software application that gives families a chance to document, organize, and p
 - Dropdown menu for user selection (photos, videos, and documents)
 - Each time the user uploads a media they can add details such as who took the photo or video, the location, the time, and text explaining the reason for the media.
 - Security features to restrict access to specific people
+- Searching tool to look for key words
   
 ## Goals
 
