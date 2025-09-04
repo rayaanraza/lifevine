@@ -7,8 +7,7 @@ A software application that gives families a chance to document, organize, and p
 
 ## Technologies
 - Python (backend logic + automation)
-- SQLite (local database storage)
-- Tkinter (user-friendly GUI)
+
 
 ## Goals
 - Enable easy uploading and organizing of digital files
