@@ -49,7 +49,7 @@ A software application that gives families an opportunity to document, organize,
 
 
 ## React unit test psuedo code
-```React
+```jsx
 // init first photo in state
 const [timeline, setTimeline] = useState([
     { key: "09/03/2025", value: "img.src" }
