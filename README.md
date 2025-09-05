@@ -49,7 +49,7 @@ A software application that gives families an opportunity to document, organize,
 
 
 ## React unit test psuedo code
-```
+```React
 // init first photo in state
 const [timeline, setTimeline] = useState([
     { key: "09/03/2025", value: "img.src" }
@@ -77,6 +77,7 @@ const [timeline, setTimeline] = useState([
 ```
 
 ## JavaScript Unit Test and Psuedo Code
+```javascript
 // initialize the first photo 
 let rootPhoto = {
     key: '09/03/2025', value: 'img.src',
@@ -103,8 +104,10 @@ prev_index = current_index - 1
 if (timeline[prev_index.key()] < timeline[current_index.key()]){
     return true;
 }
+```
 
 ## Python Unit Test and Psuedo Code
+```python
 import datetime as dt
 import pytest
 
@@ -160,3 +163,4 @@ class InMemoryTimelineService:
 
         # Also check expected order of media_ids
         assert [e.media_id for e in entries] == [2, 1, 3]
+```
