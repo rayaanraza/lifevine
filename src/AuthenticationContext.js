@@ -24,7 +24,7 @@ export default function AuthProvider({ children }) {
     return unsub;
   }, []);
 
-  //Create account & Firestore profile
+  //Create account & profile
   const register = async (email, password, extra = {}) => {
     const cred = await createUserWithEmailAndPassword(auth, email, password);
 

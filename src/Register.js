@@ -31,7 +31,7 @@ export default function Register() {
   return (
     <div className="site">
       <header className="brand">
-        <img className="logo" src={logoUrl} alt="LifeVine logo" />   {/* <— add */}
+        <img className="logo" src={logoUrl} alt="LifeVine logo" />   {}
         <span>LifeVine</span>
       </header>
 
@@ -81,9 +81,7 @@ export default function Register() {
 
             <button className="btn" type="submit">Sign up</button>
           </form>
-
           {err && <p className="error">{err}</p>}
-
           <p className="subtext">
             Already have an account?{" "}
             <Link className="link" to="/login">Log in</Link>
