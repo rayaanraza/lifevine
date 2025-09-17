@@ -1,11 +1,31 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import AuthProvider from "./AuthenticationContext";
+import Login from "./Login";
+import Register from "./Register";
+import Dashboard from "./Dashboard";
+import ProtectedRoute from "./ProtectedRoute";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="Main">
-      i hate react
-    </div>
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navigate to="/dashboard" replace />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route
+            path="/dashboard"
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            }
+          />
+          <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
-
-export default App;
