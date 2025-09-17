@@ -102,3 +102,13 @@ body { background: var(--cream); color: var(--ink); }
   display: flex; align-items: center; justify-content: center;
   text-align: center; height: 100vh;
 }
+
+.logo{
+  width: clamp(56px, 10vw, 84px);
+  height: clamp(56px, 10vw, 84px);
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 6px auto 4px;   /* above the LifeVine text */
+  border: 2px solid var(--brand);
+}

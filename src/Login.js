@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useAuth } from "./AuthenticationContext";
 import { Link, useNavigate } from "react-router-dom";
+import logoUrl from "./logo/logo.avif";
 
 export default function Login() {
   const { login } = useAuth();
@@ -19,8 +20,8 @@ export default function Login() {
   return (
     <div className="site">
       <header className="brand">
-        <span className="brand-word">Life</span>
-        <span className="brand-word">Vine</span>
+        <img className="logo" src={logoUrl} alt="LifeVine logo" />   {/* <— add */}
+        <span>LifeVine</span>
       </header>
 
       <main className="auth-wrapper">
@@ -65,5 +66,6 @@ export default function Login() {
         </div>
       </main>
     </div>
+    
   );
 }
